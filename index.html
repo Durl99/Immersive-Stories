@@ -8,32 +8,37 @@
 </head>
 <body>
     <header>
-        <h1>Historias Inmersas</h1>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="about.html">Acerca de</a>
-        </nav>
+        <div class="container">
+            <h1><a href="/">Historias Inmersas</a></h1>
+            <nav>
+                <a href="/">Inicio</a>
+                <a href="/about.html">Acerca de</a>
+                <a href="/crear">Crear historia</a>
+                <a href="/login">Iniciar sesión</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
+    <main class="container">
         <section class="hero">
             <h2>Sumérgete en historias interactivas</h2>
             <p>Explora mundos virtuales y vive aventuras emocionantes donde tus decisiones cambian el curso de la historia.</p>
-            <button>Explorar historias</button>
+            <a href="/explorar" class="button">Explorar historias</a>
         </section>
 
-        <section class="featured-stories">
-            <h2>Historias destacadas</h2>
-            <div class="story-grid">
+        <section class="stories">
+            <h2>Historias recientes</h2>
+            <div class="story-list">
                 </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Historias Inmersas</p>
+        <div class="container">
+            <p>&copy; 2023 Historias Inmersas</p>
+        </div>
     </footer>
 
     <script src="js/app.js"></script>
 </body>
 </html>
-
